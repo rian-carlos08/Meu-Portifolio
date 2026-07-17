@@ -1,0 +1,110 @@
+body{
+
+    margin:0;
+    font-family:Arial;
+    background:#f2f2f2;
+
+}
+
+header{
+
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+nav{
+
+    margin-top:15px;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+
+}
+
+section{
+
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding:30px;
+
+}
+
+.foto{
+
+    width:180px;
+    border-radius:50%;
+    border:4px solid #003366;
+
+}
+
+.projeto{
+
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+
+}
+
+input{
+
+    width:300px;
+    padding:10px;
+    margin-bottom:10px;
+
+}
+
+textarea{
+
+    width:300px;
+    height:120px;
+    padding:10px;
+
+}
+
+button{
+
+    background:#003366;
+    color:white;
+    padding:10px 25px;
+    border:none;
+
+}
+
+footer{
+
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+
+}
+
+/* Responsividade */
+
+@media (max-width:600px){
+
+section{
+
+width:95%;
+
+}
+
+input,
+textarea{
+
+width:90%;
+
+}
+
+}
